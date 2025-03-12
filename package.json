@@ -1,0 +1,28 @@
+{
+  "name": "client-schedule-web-form-react",
+  "version": "1.0.0",
+  "scripts": {
+    "login": "clasp login",
+    "logout": "clasp logout",
+    "create": "clasp create --title 'React - Apps Script' --rootDir ./apps-script",
+    "clone": "clasp clone <Project ID> --rootDir ./apps-script",
+    "pull": "clasp pull",
+    "push": "clasp push",
+    "push:watch": "clasp push --watch",
+    "parcel:start": "parcel src/index.html --dist-dir ./apps-script --source-maps",
+    "parcel:build": "parcel build src/index.html --dist-dir ./apps-script"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.3.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  }
+}
