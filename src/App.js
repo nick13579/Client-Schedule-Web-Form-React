@@ -8,15 +8,12 @@ function App() {
     const navigate = useNavigate();
 
     useEffect(() => {
+      console.log('Testing')
       navigate("/");
     }, [])
     
     return <>
-        <Nav />
-        <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-        </Routes>
+        Testing
     </>;
 }
 

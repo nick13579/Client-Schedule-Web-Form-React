@@ -9,7 +9,7 @@
     "pull": "clasp pull",
     "push": "clasp push",
     "push:watch": "clasp push --watch",
-    "parcel:start": "parcel src/index.html --dist-dir ./apps-script --source-maps",
+    "parcel:start": "parcel src/index.html --dist-dir ./apps-script",
     "parcel:build": "parcel build src/index.html --dist-dir ./apps-script"
   },
   "keywords": [],
